@@ -65,7 +65,6 @@ public class Permission {
 	}
 	
 	public String getSuffix(Player player) {
-		String prefix = "";
 		switch (handler) {
 			case PERMISSIONS:
 				prefix = permissionPlugin.getUserSuffix(player.getWorld().getName(), getGroup(player));
